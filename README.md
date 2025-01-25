@@ -41,3 +41,14 @@ https://github.com/Manisha726/stocks-services.git
   ./gradlew bootRun
   ```
 5. The application will run on: http://localhost:8080
+
+
+### Assumption or Limitations
+- Using stocks-web and stocks-services you can buy or sell shares(not real shares).
+- As the free api key of alpha vantage provides to hit limited number of requests whenever the api key expires, static data will be shown from stocks-web and instead of buying the share with real price only for ($1 - constant value) you can buy.
+
+
+### Desclaimer
+
+- The stocks that you buy or sell using stocks-web and stocks-serives are not real.
+
